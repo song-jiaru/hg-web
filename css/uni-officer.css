@@ -1,0 +1,65 @@
+
+ .jt-xueyuan .cont .mate{
+ 	font-size: 18px;
+ 	margin-left: 20px;
+ 	color: black;
+ }
+ .item-right .item-off{
+ 	background:none;
+ }
+.item-right .item-tit .item-cont .img{
+	width: 150px;
+	height: 180px;
+	margin-left: 15px;
+	font-size: 14px;
+	float: left;
+	margin-right: 35px;
+	padding-bottom: 20px;
+}
+ .item-cont .img img{
+ 	width: 150px;
+	height: 180px;
+	margin-left: 15px;
+ }
+ .item-cont .img .officer{
+ 	font-weight: bold;
+ 	margin-top: -15px;
+
+ }
+  .item-cont .img  .uni-off{
+  	 width: 200px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 40px;
+
+  }
+    .item-cont .img .off-name{
+    	margin-top: -44px;
+		margin-left:50px;
+    }
+    .item-cont .intro-art{
+    	width: 400px;
+    	
+    	margin-left: 20px; 
+    }
+    .item-cont .off-cont{
+    	width: 850;
+    	height: 245;
+    	margin-bottom: 30px;
+    	padding-bottom: 20px;
+    	background: url(../img/intro_line.png) center bottom no-repeat;
+    background-size: auto auto;
+background-size: 100% 1px;
+    }
+    .off-left{
+    	background:none ;
+    
+    }
+    .off-ban{
+    	margin-top: 1600px;
+
+    }
+.off-wjw{
+    	padding: 180px 50px;
+    }
+ 

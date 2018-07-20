@@ -1,0 +1,94 @@
+body{
+	background: url(./login_pic1.png) no-repeat;
+    background-size: auto auto;
+background-size: 1300px 780px;
+margin: 0 0;
+}
+
+.login{
+	text-align: center;
+	padding-top: 60px;
+	letter-spacing: 10px;
+	width: 400px;
+	height: 250px;
+	margin-left: 432px;
+	background: rgba(255, 255, 255, 0.7);
+	margin-top: 150px;
+	color:  	#191970;
+	box-shadow: 10px 10px 5px  	 	#C0C0C0;
+	border-radius: 5px;
+}
+
+h3{
+	margin-top: -10px;
+	color:  	#191970;
+	margin-left: 10px;
+}
+.login .login_form{
+	margin-top: 20px;
+
+}
+.login .login_form .user{
+	margin-bottom: 15px;
+	width: 150px;
+	height: 20px;
+	border: 1px solid #191970;
+	border-radius: 5px;
+}
+.login .login_form .password{
+	margin-bottom: 15px;
+	width: 150px;
+	height: 20px;
+	border: 1px solid #191970;
+	border-radius: 5px;
+}
+.login_form .ok{
+	    margin-left: -60px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 40px;
+	background:url(./menu-sub.png) no-repeat;
+	overflow: hidden;
+	background-size: 
+	color:#fff;
+	cursor: pointer;
+}
+
+
+ .login_form  .reset{
+	margin-right: -80px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background:url(./menu-sub.png) no-repeat;
+	overflow: hidden;
+	color: #fff;
+	cursor: pointer;
+
+}
+ .login p{
+ 	 margin-left: 15px;
+    float: left;
+    letter-spacing: 0px;
+    font-size: 14px;
+    margin-top: 35px;
+ }
+ .login .registe{
+ 	 margin-left: 15px;
+    float: left;
+    letter-spacing: 0px;
+    font-size: 14px;
+     background:url(./menu-sub.png) no-repeat;
+	overflow: hidden;
+	color: #fff;
+	margin-top: 33px;
+	cursor: pointer;
+ }
+ .login .reg_form{
+ 	width: 180px;
+ 	height: 80px;
+ 	float: right;
+ 	margin-right: -40px;
+ }

@@ -1,0 +1,48 @@
+.teac-sname{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.teac-off{
+	font-size: 14px;
+	margin-top: 25px;
+
+}
+.teac-off-doc{
+	margin-top: 50px;
+
+}
+.teac-blank{
+	width: 10px;
+	height: 10px;
+	padding: 10px;
+
+}
+.teac-a{
+	font-size: 14px;
+	color: #4418dd;
+	margin-left: 15px;
+
+}
+.cont .teac-doc{
+	margin-left: 68px;
+}
+.cont .teac-a:hover{
+	color: #ec1414;
+}
+.cont .teac-undoc{
+	margin-top: 25px;
+
+}
+.teac-undoc-change{
+	margin-left: 80px;
+
+}
+.undoc-change{
+	margin-left: 80px;
+	margin-top: 16px;
+
+}
+.doc{
+	margin-top: 20px;
+}

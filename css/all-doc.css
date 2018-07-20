@@ -1,0 +1,42 @@
+.tearch-intro-box {
+    margin-top: 50px;
+
+}
+.tearch-intro-box .pic-1 {
+    background: url(../img/teacher-lgf.jpg ) no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    background-size: auto 100%;
+    background-position: center top;
+    width: 176px;
+    height: 241px;
+    text-align: center;
+    border: 1px solid #dbdcdd;
+    float: left;
+}
+.tearch-intro-box .intro {
+    margin-left: 215px;
+}
+.tearch-intro-box .intro .t-n {
+    color: #18306f;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.tearch-intro-box .intro .t-inf {
+    line-height: 30px;
+    color: #1b1b1b;
+}
+.jt-btmline {
+    background: url(../img/index_line.png) center bottom no-repeat;
+        background-size: auto auto;
+    background-size: 100% 1px;
+    padding-bottom: 1px;
+}
+.clear {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
