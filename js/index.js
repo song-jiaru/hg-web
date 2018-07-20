@@ -1,36 +1,37 @@
 $(function(){
-	var Currindex=0;
-	var IsView=false;
-	var Ttimeout=null
-	//导航栏
+  var Currindex=0;
+  var IsView=false;
+  var Ttimeout=null
+  //导航栏
     $(".menu .menu_cont_a").each(function(index, element) {
-        $(element).hover(function(t){
+      console.log(element)
+        $(element).mouseenter(function(t){
 
-			if(Ttimeout!=null)  //清除定时器
-				clearTimeout(Ttimeout);
-			$(".menu .sub-menu").each(function(a, b) {
-                if(a!=index){
-					$(b).find(".sub-menu").stop(true,true).slideUp(300);
-				}
+          // if(Ttimeout!=null)  //清除定时器
+          //  clearTimeout(Ttimeout);
+          // $(".menu .sub-menu").each(function(a, b) {
+       //      console.log(a)
+       //      console.log(b)
+       //      if(a!=index){
+          //    $(b).find(".sub-menu").stop(true,true);
+          //  }
+       //    });
+          // Isview=true;
+          // Currindex=index;
+          $(this).find(".sub-menu").stop(true,true).slideDown(400).show();//显示
+        });
 
-
-            });
-			Isview=true;
-			Currindex=index;
-
-			$(this).find(".sub-menu").stop(true,true).slideDown(300).show();//显示
-
-		});
-
-		$(this).mouseleave(function(t){   //
-			Ttimeout=setTimeout(function(){
-					$(".menu .sub-menu ").slideUp(400);
-			},100);
-		});
+         $(element).mouseleave(function(t){   
+           $(this).find(".sub-menu").slideUp(400);
+        //  // Ttimeout=setTimeout(function(){
+        //  //    $(".sub-menu").slideUp(400);
+        //  // },100);
+      //  //    console.log(Ttimeout)
+         });
     });
-    		
-    	
-    	   $(".menu li").click(function() {
+        
+      
+         $(".menu li").click(function() {
          $(".menu li").eq($(this).index()).addClass("change").siblings();
  })
  function lun() {

@@ -124,13 +124,23 @@ a:hover {
     z-index: 20;
     list-style-type: none;
 }
-.jt-top-cont .menu .menu_cont_a{
+i {
+    display: inline-block;
+    width: 1px;
+    height:20px;
     border-right: 1px solid #fff;
+    margin: -4px auto;
+}
+
+.jt-top-cont .menu .menu_cont_a{
+   
     display: inline-block;
     zoom: 1;
-    *display: inline;
+   /*  display: inline; */
     padding: 0 4px;
     position: relative;
+    /* margin: 0 1px; */
+    height: 40px;
 }
 .jt-top-cont .menu .menu_cont_a > a{
         display: inline-block;
@@ -157,16 +167,20 @@ a:hover {
 }
 .menu .sub-menu .menu_cont_b{
     /*white-space: nowrap;*/
-    background-color: rgba(0, 135, 208, 0.8);
-    background: url(../img/menu-sub2.png) left center no-repeat;
-        background-size: auto auto;
-    background-size: 100% 100%;
-    padding: 5px 15px;
-    line-height: 14px;
-    font-size: 14px;
-    min-width: 70px;
-    text-align: center;
+background-color: rgba(0, 135, 208, 0.8);
+background: url(../img/menu-sub2.png) left center no-repeat;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: 100% 100%;
+padding: 10px 15px;
+    padding-left: 15px;
+line-height: 14px;
+font-size: 14px;
+min-width: 70px;
+text-align: center;
+padding-left: 18px;
 }
+
 
 .jt-top-search{
     position: absolute;
