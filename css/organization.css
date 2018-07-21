@@ -1,0 +1,54 @@
+.orga-xueyuan{
+	margin-top: 20px;
+
+}
+.orga-xueyuan .orga-cont{
+	background: url(../img/intro_artbg.jpg) no-repeat #fff;
+	background-size: 100% 300px;
+		margin-bottom: -120px;
+}
+.jt-xueyuan .orga-cont{
+	text-align: center;
+
+	
+	
+}
+.orga-list{
+
+	width: 100%;
+	border: none;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px; 
+}
+.orga-list th {
+    color: #18306f;
+    font-weight: bold;
+}
+
+th,td{
+	border: 1px solid black;
+}
+td{
+	font-size: 12px;
+
+}
+.orga-list tr{
+	background: url(../img/index_line.png) no-repeat scroll center bottom;
+    background-size: auto auto; 
+	background-size: 100% 1px;
+
+}
+.orga-list td {
+    color: #24292a;
+}
+.orga-list td, .orga-list th {
+    padding: 4px 5px;
+}
+.orga-list .col-1 {
+    width: 50%;
+}
+
+.orga-ban{
+	margin-top: 50px;
+}
