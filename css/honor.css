@@ -1,0 +1,29 @@
+.cont .group-pic{
+	width: 820px;
+	height: 166px;
+	margin-top: 20px;
+}
+
+.cont .group-pic .honor-pic{
+	width: 180px;
+	height: 130px;
+	margin: 10px;
+	float: left;
+	margin-left: 65px;
+
+
+}
+.cont .group-pic .honor-pic p{
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.jt-xueyuan .honor-cont{
+	padding-bottom: 50px;
+
+}
+.honor-ban{
+	margin-top: 75px;
+
+} 
