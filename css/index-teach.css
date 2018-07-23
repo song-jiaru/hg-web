@@ -1,0 +1,55 @@
+ul{
+	list-style: none;
+}
+
+.index-teach-ul{
+	 width: 100%;
+	
+	 padding-bottom: 40px;
+
+}
+
+.index-teach-ul li{
+	margin-right: 35px;
+	float: left;
+	width: 220px;
+	border-top: 5px solid #f3f3f3
+	line-height:25px;
+	height: 200px;
+	overflow: hidden;
+	margin-top: -20px;
+	display: inline;
+}
+
+.index-teach-ul .List{
+	margin-left: 80px;
+}
+.index-teach-ul li p{
+	font-size: 14px;
+	color: #454545;
+
+}
+
+.index-teach-ul li p span{
+	color: #342a7a;
+}
+
+.index-teach-ul li .t2{
+	line-height: 26px;
+	padding: 5px 0;
+	font-size: 16px;
+	width: 100%;
+	height: 26px;
+	overflow: hidden;
+	clear: left;
+}
+
+.index-teach-ul li .t2 a {
+
+    color: #150673;
+
+}
+
+.index-teach-ul li p .t3{
+	color: #888;
+}
