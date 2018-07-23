@@ -1,0 +1,60 @@
+.cont .ex-a-spn{
+	
+	height: 20px;
+	margin-top: 20px;
+
+	
+
+}
+.cont .ex-spn{
+width: 130px;
+height: 18px;
+margin-left: 40px;
+font-size: 15px;
+font-weight: bold;
+color: black;
+padding-right: 180px;
+
+
+
+
+
+}
+
+
+.cont .ex-left{
+	float: left;
+	border-right: 1px solid #918383;
+	margin-left: 20px;
+}
+
+.jt-xueyuan .ex-cont{
+	padding: 0;
+
+}
+.cont .ex-right{
+	float: right;
+	
+	margin-right: 180px;
+}
+.cont .ex-r-a-spn{
+	
+	height: 20px;
+	margin-top: 20px;
+
+	
+
+}
+
+.cont .ex-r-spn{
+	height: 18px;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+
+
+
+
+
+
+}

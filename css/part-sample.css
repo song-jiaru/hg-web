@@ -1,0 +1,69 @@
+.jt-part{
+    width: 1180px;
+}
+
+.jt-tch-left {
+    width: 210px;
+    height: 100%;z
+    min-height: 200px;
+    font-size: 14px;
+    line-height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/itembg.jpg) no-repeat #f0f0f0;
+        background-size: auto auto;
+    background-size: 100% 100%;
+   
+}
+.jt-btmline {
+    background: url(../img/index_line.png) center bottom no-repeat;
+        background-size: auto auto;
+    background-size: 100% 1px;
+    padding-bottom: 1px;
+}
+
+.jt-allh {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.jt-tch-left .tit {
+    border-top: 5px solid #18306f;
+    padding-left: 30px;
+    color: #18306f;
+    font-weight: bold;
+}
+.jt-tch-left .leftnav2 {
+    text-align: center;
+    display: block;
+    margin: 0px 15px;
+    color: #363637;
+    background-size: 9px 5px;
+    background-position: right center;
+}
+.jt-btmline {
+    background: url(../img/index_line.png) center bottom no-repeat;
+        background-size: auto auto;
+    background-size: 100% 1px;
+    padding-bottom: 1px;
+}
+
+.jt-tch-right2 {
+    padding-bottom: 10px;
+}
+ .jt-tch-right{
+    margin-left: 230px;
+    background: url(../img/itembg.jpg) no-repeat #fff;
+        background-size: auto auto;
+    background-size: 100% 100%;
+    min-height: 430px;
+}
+.jt-item-def {
+    border-top: 5px solid #18306f;
+    
+}
+
+.jt-part-ban{
+    margin-top: 0px;
+}
