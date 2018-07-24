@@ -4,7 +4,7 @@ $(function(){
   var Ttimeout=null
   //导航栏
     $(".menu .menu_cont_a").each(function(index, element) {
-      console.log(element)
+  
         $(element).mouseenter(function(t){
 
           // if(Ttimeout!=null)  //清除定时器
