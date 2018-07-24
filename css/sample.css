@@ -25,7 +25,9 @@ a:hover {
     color: #18306f;
 }
 
-
+.sy-active{
+    background:#fff;
+}
 .jt-top{
     position: absolute;
     left: 0;
