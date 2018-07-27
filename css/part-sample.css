@@ -71,3 +71,33 @@ width: 1180px;
 margin-top: 0px;
 margin-left: 40px;
 margin-bottom: 30px;
+}
+
+/*science research*/
+.cont .sr-table{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.cont .sr-table table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cont .sr-table th{
+    font-weight: bold;
+    border:1px solid black;
+}
+.cont .sr-table tr{
+    border:1px solid black;
+    padding: 5px;
+}
+.cont .sr-table td{
+      border:1px solid black;
+       padding: 5px;
+        
+}
+
+/*students working*/
+.sy-all .sw-parts-right{
+    min-height: 600px;
+    
+}

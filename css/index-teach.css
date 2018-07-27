@@ -1,6 +1,6 @@
 
 .te-item{
-	min-height: 500px;
+	min-height: 800px;
 
 }
 
@@ -18,18 +18,26 @@ ul{
 .index-teach-ul li{
 	margin-right: 35px;
 	float: left;
-	width: 220px;
+	
 	border-top: 5px solid #f3f3f3
 	line-height:25px;
-	height: 200px;
+	
 	overflow: hidden;
 	margin-top: -20px;
 	display: inline;
+	border-bottom: 2px solid #050758;
+	margin-bottom: 20px;
+
 }
 
 .index-teach-ul .List{
-	margin-left: 80px;
+	/*margin-left: 80px;*/
 }
+.index-teach-ul li .t2 :hover{
+	
+	color:  	#0000CD;
+
+	}
 .index-teach-ul li p{
 	font-size: 14px;
 	color: #454545;
