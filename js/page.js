@@ -13,7 +13,37 @@ $(function(){
 				   $('.P-C').eq(strs[0]).show();
 				   //var title=['实验实训','科研设施','实验室','实习基地','学生实训室','科研|实验|实训活动'];
 				  //$("#changing").text(title[strs[0]]);
+                   if(strs==0)
+                   {
+                   	$(" .first .List ").eq(0).show().siblings().hide();
+	                   	$(" .te-page ul li").click(function(){
 
+							var num=$(this).index();
+							
+							 $(" .te-page li").eq(num).css("background","#1a0d7c").siblings().css("background","")
+							 $(" .te-page li").eq(num).css("color","#fff").siblings().css("color","")
+							 //
+							  $(".firstly  li").eq(num).css("background","#1a0d7c").siblings().css("background","")
+							 $(".firstly  li").eq(num).css("color","#fff").siblings().css("color","")
+							 $(" .first .List ").eq(num).show().siblings().hide();
+						
+							 //console.log($(" .third .List  ").eq(num).html());
+						});
+			
+
+                   }
+
+		                   var Cont=$(".sy-all .P-C").eq(strs)
+				
+							//($(Cont).index())
+							//alert(Cont.index())
+							$(".jt-btmline a").eq(strs).css("background","rgb(35, 26, 106)").siblings().css("background","")
+							$(".jt-btmline  a").eq(strs).css("color","#fff").siblings().css("color","")
+							//$(Cont).show().siblings().hide();
+							$(" .first .List ").eq(0).show().siblings().hide();
+							$(" .second .List ").eq(0).show().siblings().hide();
+							$(" .third .List ").eq(0).show().siblings().hide();
+							$(" .fourth .List ").eq(0).show().siblings().hide();
 		 	   }
    			}		
 
@@ -21,11 +51,11 @@ $(function(){
 
 	//$(".sy-all  .P-C").hide()  $(".sy-all .P-C").eq(0).show()
 		//侧导航
-	$(".jt-btmline ").find("a").click(function(){
+	/*$(".jt-btmline ").find("a").click(function(){
 		
 
 		var Nav=$(this).index();
-		//console.log(Nav)
+		console.log(Nav)
 		var Cont=$(".sy-all .P-C").eq(Nav)
 		
 		//($(Cont).index())
@@ -33,11 +63,17 @@ $(function(){
 		$(this).css("background","rgb(35, 26, 106)").siblings().css("background","")
 		$(this).css("color","#fff").siblings().css("color","")
 		$(Cont).show().siblings().hide();
+		$(" .first .List ").eq(0).show().siblings().hide();
+		$(" .second .List ").eq(0).show().siblings().hide();
 		$(" .third .List ").eq(0).show().siblings().hide();
+		$(" .fourth .List ").eq(0).show().siblings().hide();
 
 
-			if (Cont.index()==2) {
-				
+			
+						return false;
+
+	})*/
+			
 
 				$(" .te-page ul li").click(function(){
 
@@ -51,15 +87,30 @@ $(function(){
 						 //(".third .index-teach-ul").eq(0).show();
 						 $(" .te-page li").eq(num).css("background","#1a0d7c").siblings().css("background","")
 						 $(" .te-page li").eq(num).css("color","#fff").siblings().css("color","")
+						 //
+						  $(".firstly  li").eq(num).css("background","#1a0d7c").siblings().css("background","")
+						 $(".firstly  li").eq(num).css("color","#fff").siblings().css("color","")
+						 //
+						  $(".secondly  li").eq(num).css("background","#1a0d7c").siblings().css("background","")
+						 $(".secondly  li").eq(num).css("color","#fff").siblings().css("color","")
+						 //
+						  $(".thirdly  li").eq(num).css("background","#1a0d7c").siblings().css("background","")
+						 $(".thirdly li").eq(num).css("color","#fff").siblings().css("color","")
+						 //
+						  $(".fourthly  li").eq(num).css("background","#1a0d7c").siblings().css("background","")
+						 $(".fourthly  li").eq(num).css("color","#fff").siblings().css("color","")
+
+						 $(" .first .List ").eq(num).show().siblings().hide();
+						 $(" .second .List ").eq(num).show().siblings().hide();
 						 $(" .third .List ").eq(num).show().siblings().hide();
-						 console.log($(" .third .List  ").eq(num).html());
+						 $(" .fourth .List ").eq(num).show().siblings().hide();
+						 //console.log($(" .third .List  ").eq(num).html());
 				});
-			}
+			
 
 
-					return false;
 
-	})
+
 	
 
 

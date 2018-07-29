@@ -1,0 +1,135 @@
+body{
+	margin:0;
+	padding: 0;
+}
+a,ul,li{
+	list-style: none;
+	text-decoration: none;
+}
+.ami-top .spn{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 140px;
+	z-index: 10;
+	width: 100%;
+	background: url(./headbg7.png) repeat-x;
+	min-width: 1180px;
+}
+.ami-top .spn .ami-top-cont{
+	width: 1170px;
+	height: 140px;
+	margin: auto;
+	position: relative;
+}
+
+.ami-top .spn .ami-top-cont .top-logo{
+	z-index: 1;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: url(./logo.png) no-repeat;
+	    background-size: auto auto;
+	background-size: auto auto;
+	background-size: 100% 100%;
+}
+.ami-top .spn .ami-top-cont .top-logo-word{
+	z-index: 1;
+	width: 550px;
+	height: 160px;
+	position: absolute;
+	top: -15px;
+	left: -22px;
+	background: url(./logo_word.png) no-repeat;
+	    background-size: auto auto;
+	background-size: auto auto;
+	background-size: 100% 100%;
+}
+
+.ami-mid .ami-left{
+	width: 230px;
+	height:auto;
+	background:#150757;
+	color: #fff;
+	position: absolute;
+
+
+}
+ .ami-left .ami-left-cont{
+	margin-top: 150px
+
+}
+.ami-mid .ami-active{
+	height: auto;
+}
+ .ami-left-cont  .ami-left-spn{
+ 	text-align: center;
+ 	font-weight: bold;
+ 	width: 230px;
+ 	height: auto;
+ 	line-height: 40px;
+ 	font-size: 19px;
+ 	
+ 	/*background:url(./icon1.png) no-repeat ;
+ 	background-position: 90% 35%;
+	padding-bottom: 7px;
+ 	*/
+ 	
+ 	overflow: hidden;
+ 	cursor: pointer;
+ 	margin: 0 0;
+
+}
+.ami-left-cont .ami-logo-past{
+	background:url(./icon1.png) no-repeat ;
+ 	background-position: 190px 12px;
+
+}
+.ami-left-cont .ami-logo-active{
+	background:url(./icon2.png) no-repeat ;
+ 	background-position: 190px 12px;
+}
+
+.ami-left-cont  .ami-left-spn ul{
+	margin-left:-40px;
+	display: none;
+	height: auto;
+	background:#1e0691;
+}
+
+ .ami-left-cont  .ami-left-spn ul li{
+ 	list-style: none;
+ 	width: 230px;
+ 	height: 40px;
+ 	border-bottom: 1px solid #fff;
+ 	text-align: center;
+ 	line-height: 38px;
+ 	background:#1e0691;
+ 	font-size: 17px;
+
+ }
+ .ami-left-cont  .ami-left-spn ul li a{
+ 	
+ 	color: #fff;
+ }
+ .ami-lf-bottom {
+ 	/*padding-bottom: 234px;*/
+ }
+ .ami-right{
+ 	width: 1283px;
+ 	background:url(./login_pic1.png) no-repeat ;
+ 	background-size:auto;
+ 	height: 683px;
+ 	float: right;
+ 	padding: auto;
+ 	margin-top: 140px;
+ 	margin-left: -30px;
+ 	
+ 
+ }
+ .ami-right .ami-right-cont{
+ 	width: 1033px;
+
+ }
