@@ -44,10 +44,15 @@ $(function(){
 							$(" .second .List ").eq(0).show().siblings().hide();
 							$(" .third .List ").eq(0).show().siblings().hide();
 							$(" .fourth .List ").eq(0).show().siblings().hide();
+							
+
+							
 		 	   }
+
    			}		
 
 				GetRequest();
+
 
 	//$(".sy-all  .P-C").hide()  $(".sy-all .P-C").eq(0).show()
 		//侧导航

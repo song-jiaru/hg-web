@@ -130,4 +130,22 @@ $(function(){
 
   };
   lun();
+  var url = "../servlet/fabu" ;
+  $.ajax({
+      type: "get",
+      url: url,
+//    data: "para="+para,  此处data可以为 a=1&b=2类型的字符串 或 json数据。
+      //data: {"list":1},
+      async :true,
+      dataType: "json",
+      success: function (data)
+      {
+        console.log(data)
+          
+      },
+      error:function (XMLHttpRequest, textStatus, errorThrown) {      
+          //alert("请求失败！");
+      }
+   });
+  
 });
